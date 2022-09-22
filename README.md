@@ -14,13 +14,13 @@ Links úteis no geral
 •	StackOverflow
 •	Documentação do Python
 
-Etapa 3: Manipulando dados 📝
+Etapa 3: Manipulando dados 
 •	Objetivo: agora, você pode observar que, na base de dados obtida, devido às diferentes nacionalidades dos usuários, os números de telefone e celular têm formatos diferentes. Você deve transformá-los para um formato único, escolhido arbitrariamente.
 •	Descrição da solução: uma função que recebe, como parâmetro, um pandas.DataFrame e retorna um pandas.DataFrame com as mesmas colunas, mas com os números de telefone e celular formatados de forma única.
 •	Links úteis:
 o	Documentação do Pandas: https://pandas.pydata.org/docs/
 
-Etapa 4: Analisando dados sem agrupamento 📊
+Etapa 4: Analisando dados sem agrupamento 
 •	Objetivo: com seus dados devidamente tratados, você deve gerar os seguintes itens:
 o	Um relatório em texto (não precisa de formatação) contendo:
 	A porcentagem dos usuários por gênero
@@ -32,13 +32,13 @@ o	Documentação do Pandas: https://pandas.pydata.org/docs/
 o	Documentação do Matplotlib: https://matplotlib.org/
 o	Documentação do Seaborn: https://seaborn.pydata.org/
 
-Etapa 5: Analisando dados com agrupamento 📊
+Etapa 5: Analisando dados com agrupamento 
 •	Objetivo: utilizar técnicas de agrupamento para descobrir usuários que moram no mesmo país e estado.
 •	Descrição da solução: uma função que recebe, como parâmetro, um pandas.DataFrame e retorna um pandas.DataFrame com as mesmas colunas, mas com os dados agrupados por país e estado.
 •	Links úteis:
 o	Documentação do Pandas: https://pandas.pydata.org/docs/
 
-Etapa 6 (opcional): Particionando dados 🎼
+Etapa 6 (opcional): Particionando dados 
 Objetivo: realizar o particionamento dos dados em formato Hive utilizando as informações de país e estado de cada usuário.
 
 Descrição da solução: uma função que recebe, como parâmetro, um pandas.DataFrame e salva todos os dados em arquivos CSV particionados por país e estado.
@@ -71,7 +71,7 @@ Cada arquivo gerado, então, teria o seguinte formato (esse em questão seria o 
 
 Note que, no arquivo CSV gerado, as colunas referentes às informações utilizadas para particionamento são removidas.
 
-Etapa 7: Parametrizando seu código ⚙️
+Etapa 7: Parametrizando seu código 
 Objetivo: nessa etapa, você deve parametrizar seu código para que ele seja executado com valores diversos fornecidos pelo usuário.
 Descrição da solução: a solução dessa etapa consiste em uma função principal que recebe diversos parâmetros e executa as diversas etapas descritas anteriormente em função dos parâmetros fornecidos. Note que essa etapa é crucial para que seu código se torne reutilizável.
 Dicas:
