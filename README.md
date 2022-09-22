@@ -83,6 +83,7 @@ Empresa Municipal de Informática – IPLANRIO
 ![image](https://user-images.githubusercontent.com/26438487/191785515-9d9a6567-6de3-436a-9968-0cd00f5c550a.png)
 
 GTIS03
+
 SECRETARIA MUNICIPAL DE FAZENDA E PLANEJAMENTO
 
 
